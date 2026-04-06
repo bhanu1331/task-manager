@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: task-manager-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
